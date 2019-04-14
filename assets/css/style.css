@@ -273,6 +273,10 @@ input[type=button]:hover {
     .top-left, .top-right, .middle-left, .middle-right, .bottom {
         width: 285px;
     }
+
+    body {
+        overflow-y: scroll;
+      }
 }
 
 
@@ -297,6 +301,9 @@ input[type=button]:hover {
     ul {
         right: 20px;
     }
+    body {
+        overflow-y: scroll;
+      }
 }
 
 @media only screen and (max-width: 640px) {  
@@ -332,6 +339,8 @@ input[type=button]:hover {
         justify-content: center;
     }
 
+    
+
     .container, .container2, .container3, .container4, .container5 {
         width: 100%;
     }
@@ -340,6 +349,10 @@ input[type=button]:hover {
         width: 100%;
         top: 200px;
     }
+
+    body {
+        overflow-y: scroll;
+      }
       
     }
 
