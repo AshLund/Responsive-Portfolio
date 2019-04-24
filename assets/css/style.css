@@ -57,6 +57,11 @@ li a {
     font-family: 'Georgia', Times, Times, serif;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 li:hover {
     color: white;
     background-color: #4aaaa5;
@@ -146,6 +151,12 @@ input[type=button]:hover {
 .container {
     position: relative;
     float: left;
+    width: 300px;
+    height: 150px;
+   background-color: #dddddd;
+   float: left;
+   margin-right: 20px;
+   margin-bottom: 20px;
 }
 
 .top-left {
@@ -339,13 +350,15 @@ input[type=button]:hover {
         justify-content: center;
     }
 
-    
-
     .container, .container2, .container3, .container4, .container5 {
         width: 100%;
     }
 
-    .top-left, .top-right, .middle-left, .middle-right, .bottom {
+    .top-left {
+        width: 100%;
+    }
+
+  .top-right, .middle-left, .middle-right, .bottom {
         width: 100%;
         top: 200px;
     }
