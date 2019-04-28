@@ -153,9 +153,7 @@ input[type=button]:hover {
     float: left;
     width: 300px;
     height: 150px;
-   background-color: #dddddd;
-   float: left;
-   margin-right: 20px;
+   background-color: black;
    margin-bottom: 20px;
 }
 
@@ -173,8 +171,13 @@ input[type=button]:hover {
 
 .container2 {
     position: relative;
-    float: right;
+    float: left;
+    background-color:  #EA55A0;
     width: 575px;
+    width: 300px;
+    height: 150px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .top-right {
@@ -352,6 +355,10 @@ input[type=button]:hover {
 
     .container, .container2, .container3, .container4, .container5 {
         width: 100%;
+    }
+
+    .container2 {
+        margin-left: 0;
     }
 
     .top-left {
