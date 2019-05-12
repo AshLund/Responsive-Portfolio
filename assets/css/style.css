@@ -102,13 +102,12 @@ img {
 
 footer {
     width: 100%;
-    background-color: #666666;
+    background-color: #4aaaa5;
     text-align: center;
     height: 50px;
     line-height:50px;
     position: fixed;
     bottom: 0;
-    border-top: 10px solid #4aaaa5;
 }
 
 footer p {
@@ -195,6 +194,10 @@ input[type=button]:hover {
 .container3 {
     position: relative;
     float: left;
+    width: 300px;
+    height: 150px;
+    margin-bottom: 20px;
+    background-color: darkred;
 }
 
 .middle-left {
@@ -211,8 +214,13 @@ input[type=button]:hover {
 
 .container4 {
     position: relative;
-    float: right;
+    float: left;
+    background-color:   #ca6161;
     width: 575px;
+    width: 300px;
+    height: 150px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .middle-right {
@@ -358,6 +366,10 @@ input[type=button]:hover {
     }
 
     .container2 {
+        margin-left: 0;
+    }
+
+    .container4 {
         margin-left: 0;
     }
 
